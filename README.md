@@ -1,4 +1,4 @@
-*AI Interview Assistant*
+## AI Interview Assistant
 
 ### Demo Video 
 [AI Interview Assistant Demo](https://www.youtube.com/shorts/Qg_qYwyEKlI)
