@@ -1,5 +1,9 @@
 *AI Interview Assistant*
 
+### Demo Video 
+[AI Interview Assistant Demo](https://www.youtube.com/shorts/Qg_qYwyEKlI)
+
+
 A Python application that acts as a real-time AI assistant for technical interviews.
 
 The application features:
