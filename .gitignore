@@ -1,0 +1,52 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment files and API keys
+.env
+.env.local
+.env.production
+
+# Google Cloud credentials
+*.json
+service-account-*.json
+google-cloud-credentials.json
+
+# Application logs
+*.log
+interview_assistant.log
+interview_log_*.json
+
+# Audio files (if any are generated)
+*.wav
+*.mp3
+*.m4a
+*.flac
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+*.lnk
+
+# Temporary files
+tmp/
+temp/
+*.tmp

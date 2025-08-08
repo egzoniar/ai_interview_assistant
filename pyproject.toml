@@ -1,0 +1,27 @@
+[project]
+name = "ai-interview-assistant"
+version = "0.2.0"
+description = "AI assistant for technical interviews with real-time speech recognition and local AI integration"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pyaudio>=0.2.11",
+    "google-cloud-speech>=2.23.0",
+    "requests>=2.31.0", # Added for Ollama API calls
+    "python-dotenv>=1.0.0",
+    "numpy>=1.21.0",
+    # OpenAI is now optional for fallback only
+    # "openai>=1.0.0",  # Uncomment if you want OpenAI fallback
+]
+
+[project.scripts]
+ai-interview-assistant = "main:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["ai_interview_assistant*"]
+exclude = ["tests*", "docs*"]

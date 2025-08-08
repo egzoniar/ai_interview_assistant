@@ -1,0 +1,9 @@
+# Core dependencies for AI Interview Assistant
+pyaudio>=0.2.11
+google-cloud-speech>=2.23.0
+openai>=1.0.0
+python-dotenv>=1.0.0
+numpy>=1.21.0  # For voice activity detection
+
+# Additional utilities
+typing-extensions>=4.0.0  # For older Python versions compatibility 
